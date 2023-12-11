@@ -15,15 +15,15 @@ contoh seperti ini :
 
 <img width="603" alt="fragment-001" src="https://github.com/tiaraputriiiiii/Fragment/assets/115775237/77b12c2c-1f87-4ff7-98bb-d79816d2e229">
 
-## 1. build.gradle.kts (Module:app)
+# 1. build.gradle.kts (Module:app)
 ```
 val fragment_version = "1.6.1"
  implementation("androidx.fragment:fragment:$fragment_version")
 ```
 
-## 2. Java
+# 2. Java
 
-# a. FirstFragment
+## a. FirstFragment
 ```
 package com.fragment;
 
@@ -91,7 +91,7 @@ public class FirstFragment extends Fragment {
 }
 ```
 
-# b. SecondFragment
+## b. SecondFragment
 ```
 package com.fragment;
 
@@ -159,7 +159,7 @@ public class SecondFragment extends Fragment {
 }
 ```
 
-# c. ThirdFragment
+## c. ThirdFragment
 ```
 package com.fragment;
 
@@ -227,7 +227,7 @@ public class ThirdFragment extends Fragment {
 }
 ```
 
-# d. MainActivity
+## d. MainActivity
 ```
 package com.fragment;
 
@@ -298,9 +298,9 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-## 3. Layout
+# 3. Layout
 
-# a. fragment_first.xml
+## a. fragment_first.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -321,7 +321,7 @@ public class MainActivity extends AppCompatActivity {
 </FrameLayout>
 ```
 
-# b. fragment_second.xml
+## b. fragment_second.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -341,7 +341,7 @@ public class MainActivity extends AppCompatActivity {
 </FrameLayout>
 ```
 
-# c. fragment_third.xml
+## c. fragment_third.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -360,7 +360,7 @@ public class MainActivity extends AppCompatActivity {
 </FrameLayout>
 ```
 
-# d. activity_main.xml
+## d. activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -413,7 +413,7 @@ public class MainActivity extends AppCompatActivity {
 </LinearLayout>
 ```
 
-## Hasil
+# Hasil
 
 
 
